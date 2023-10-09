@@ -41,7 +41,11 @@ body{
     width: 70px;
     height: 70px;
 } */
- 
+.faq{
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 50px;
+}
 
 
 /* For mobile device */
