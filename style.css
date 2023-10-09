@@ -1,6 +1,8 @@
-*{
-
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&display=swap');
+body{
+    font-family: 'EB Garamond', serif;
 }
+
 .button{
     background-color: #B68C5A;
     border-style: none;
@@ -22,4 +24,28 @@
     height: 52px;
     padding: 20px; 
     outline: none;
+}
+.the-legal-practice-area{
+    margin-top: 100px;
+    font-family: Garamond;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+
+
+/* For mobile device */
+@media screen and (max-width:640px) {
+    .heading-text{
+        font-size: 45px;
+    }
+    .br{
+        display: none;
+    }
+    .head-input{
+        width: 100%;
+    }
+    .grid-box{
+        flex-direction: column;
+    }
 }
