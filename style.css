@@ -31,7 +31,17 @@ body{
     font-weight: 800;
     font-size: 40px;
 }
-
+.slider-item {
+    height: 550px;
+}
+.client{
+    border-radius: 50%;
+}
+/* .slider-client{
+    width: 70px;
+    height: 70px;
+} */
+ 
 
 
 /* For mobile device */
@@ -47,5 +57,8 @@ body{
     }
     .grid-box{
         flex-direction: column;
+    }
+    .slider-item {
+         
     }
 }
