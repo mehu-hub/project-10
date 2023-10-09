@@ -4,6 +4,22 @@
 .button{
     background-color: #B68C5A;
     border-style: none;
-    padding: 18px 30px;
+    padding: 15px 30px;
     border-radius: 5px;
+}
+.bg-img{
+    background-image: url(images/banner.png);
+    background-size: cover;
+    height: 550px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.heading-text{
+    font-size: 72px;
+}
+.head-input{
+    width: 500px;
+    height: 52px;
+    padding: 20px; 
+    outline: none;
 }
