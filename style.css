@@ -59,7 +59,7 @@ body{
     font-weight: bold;
     color: #B68C5A;
     font-family: Garamond;
-}
+} 
 
 
 /* For mobile device */
@@ -79,9 +79,6 @@ body{
     .contact{
         flex-direction: column;
          
-    }
-    .contact-form{
-       
     }
     .footer-container{
         width: auto;
