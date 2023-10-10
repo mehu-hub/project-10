@@ -36,14 +36,29 @@ body{
 }
 .client{
     border-radius: 50%;
-}
-/* .slider-client{
-    width: 70px;
-    height: 70px;
-} */
+} 
 .faq{
     font-family: Garamond;
     font-weight: bold; 
+}
+.footer-container{
+    max-width: 1440px;
+}
+.footer-text{
+    color: #CFCFCF;
+    list-style: none;
+    cursor: pointer;
+}
+.button-subs{
+    background-color: #B68C5A;
+    border-style: none;
+    padding: 11px 30px;
+    border-radius: 5px;
+}
+.foot-text-title{
+    font-weight: bold;
+    color: #B68C5A;
+    font-family: Garamond;
 }
 
 
@@ -63,9 +78,12 @@ body{
     }
     .contact{
         flex-direction: column;
-        width: 100%;
+         
     }
     .contact-form{
-        width: 100%;
+       
+    }
+    .footer-container{
+        width: auto;
     }
 }
