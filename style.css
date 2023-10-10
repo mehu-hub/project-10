@@ -60,6 +60,12 @@ body{
     color: #B68C5A;
     font-family: Garamond;
 } 
+.footer-padding{
+    margin-top: 120px;
+    background: #000;
+    padding: 50px;
+    padding-top: 100px;
+}
 
 
 /* For mobile device */
